@@ -1,0 +1,8 @@
+football-site/
+   ├── index.html
+   └── images/
+        ├── messi.jpg
+        ├── ronaldo.jpg
+        ├── mbappe.jpg
+        ├── haaland.jpg
+        └── neymar.jpg
