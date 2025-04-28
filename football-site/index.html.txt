@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <title>ברוכים הבאים לאתר של דניאל - שחקני כדורגל</title>
+  <style>
+    body {
+      background-image: url('images/football-field.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 48px;
+      animation: shine 2s infinite alternate;
+    }
+    @keyframes shine {
+      from {text-shadow: 0 0 5px gold;}
+      to {text-shadow: 0 0 20px gold;}
+    }
+    .players {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .player {
+      background: rgba(0,0,0,0.6);
+      border-radius: 12px;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+    }
+    .player img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .player h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    .player p {
+      margin: 0;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>שלום וברוכים הבאים לאתר של דניאל! 🌍✨</h1>
+  <p>כאן תלמדו על שחקני הכדורגל הכי טובים בעולם!</p>
+
+  <div class="players">
+    <div class="player">
+      <img src="images/messi.jpg" alt="Messi">
+      <h2>ליאונל מסי</h2>
+      <p>אינטר מיאמי</p>
+    </div>
+    <div class="player">
+      <img src="images/ronaldo.jpg" alt="Ronaldo">
+      <h2>כריסטיאנו רונאלדו</h2>
+      <p>אל-נאסר</p>
+    </div>
+    <div class="player">
+      <img src="images/mbappe.jpg" alt="Mbappe">
+      <h2>קיליאן אמבפה</h2>
+      <p>פריז סן ז'רמן</p>
+    </div>
+    <div class="player">
+      <img src="images/haaland.jpg" alt="Haaland">
+      <h2>ארלינג הולאנד</h2>
+      <p>מנצ'סטר סיטי</p>
+    </div>
+    <div class="player">
+      <img src="images/neymar.jpg" alt="Neymar">
+      <h2>ניימאר</h2>
+      <p>אל-הילאל</p>
+    </div>
+  </div>
+</body>
+</html>
